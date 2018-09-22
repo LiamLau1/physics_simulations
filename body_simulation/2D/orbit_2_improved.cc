@@ -71,7 +71,7 @@ int main(){
 	probe.previous_position.push_back(D);
 	//probe.acceleration_function.push_back(D);
 	/// ***** Sun's Attributes ***** ///
-	sun.mass = 333000;
+	sun.mass = 333000; //333000
 	sun.position[0] = 0; //x
 	sun.position[1] = 0; //y
 	sun.velocity[0] = 0;
@@ -79,7 +79,7 @@ int main(){
 
 	/// ***** Probe's Attributes ***** ///
 
-	probe.mass = 0.1;
+	probe.mass = 0.1; // 0.1
 	probe.position[0] = 50;
 	probe.position[1] = 700;
 	probe.velocity[0] = 5;
@@ -87,7 +87,7 @@ int main(){
 
 	/// ***** Earth's Attributes ***** ///
 
-	earth.mass = 1;
+	earth.mass = 1; //1
 	earth.position[0] = 1000;
 	earth.position[1] = 0;
 	earth.velocity[0] = 0;
